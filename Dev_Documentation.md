@@ -12,13 +12,13 @@ randomness (a random voltage from an unused pin is being used as a seed)
 and choose a method of depiction and MIN and MAX values for random numbers. 
 
 ### Random
-The random class can be initialized with min and max integer values. 
+The [random class](LEDice/src/Random.cpp) can be initialized with min and max integer values. 
 Calling the function "getRandomNumber" generates a random number 
 between the min and max values, using a seed read from the RandomPin. 
 Every sixth call, a new seed will be set for extended randomness.
 
 ### DiceInterface
-The Dice Interface is an abstract class that will be used to easily switch between 
+The [Dice Interface](LEDice/src/DiceInterface.h) is an abstract class that will be used to easily switch between 
 the different depiction methods. By calling the createDice function, we receive an 
 instance of the depiction method input as a parameter. 
 These are of the type DiceInterface and as such, can all be used the exact same way.
