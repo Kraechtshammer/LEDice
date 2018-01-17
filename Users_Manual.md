@@ -17,7 +17,7 @@ to generate randomness by reading the voltage off it.
 a depiction method to show these numbers.
 
 ## Electronic Setup
-In [Dice Setup](Dice Setup.PNG) , you can see how to setup the electronic components, 
+In [Dice Setup](Dice_Setup.PNG) , you can see how to setup the electronic components, 
 
 in [Dice Components](Dice_Components.csv), you can see a list of all components used.
 
