@@ -7,7 +7,7 @@ static const int binary::digit3[] = {LED1, LED2};
 static const int binary::digit4[] = {LED3};
 static const int binary::digit5[] = {LED3, LED1};
 static const int binary::digit6[] = {LED3, LED2};
-static const int binary::allLED[] = {LED1, LED2, LED3, LED4, LED5, LED6, LED7};
+static const int binary::allLED[] = {LED1, LED2, LED3};
 
 void binary::printDigit(int pins[], int size){
   clearLED();
