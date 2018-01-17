@@ -1,6 +1,6 @@
 # LEDice Information
 
-## Users
+### Users
 for information on how to setup your own die and simply make it work, see 
 Users Manual, Dice Setup and Dice Components!
 
