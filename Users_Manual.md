@@ -4,7 +4,7 @@ author: Paul Garten
 
 The example implementation for the D6 works as follows:
 
-# Config
+## Config
 In the configuration file, you will have to set the pins you are 
 actually using and choose one method of depiction:
 
@@ -15,13 +15,13 @@ to generate randomness by reading the voltage off it.
 DON'T change MAX and MIN unless you also want to implement (or at least, edit) 
 a depiction method to show these numbers.
 
-# Electronic Setup
+## Electronic Setup
 In "Dice_Setup.png", you can see how to setup the electronic components, 
 in "Dice_Components.csv", you can see a list of all components used.
 
 After configuration, you will just have to upload the program and you are set.
 Press the button and the dice will roll!
 
-# devs
+## devs
 IF you want to implement a new depiction method or else, 
 see developer documentation for more information.
