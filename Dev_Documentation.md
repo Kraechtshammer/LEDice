@@ -25,8 +25,11 @@ These are of the type DiceInterface and as such, can all be used the exact same 
 
 The functions that can be called in these will be: 
 **showDigit**: As the name suggests, "prints" the number handed over.
+
 **clearLED**: Sets all LEDs to LOW.
+
 **startAnimation**: simulates a short loading sequence.
+
 
 Every depiction method implemented by me uses arrays to define the pins 
 that have to be turnt on to call the different digits. 
