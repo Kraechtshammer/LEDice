@@ -34,7 +34,7 @@ void loop() {
   }
 
   //if 5 seconds have passed, clear the dice.
-  if (((millis() - lastPress) > 5000) && ((millis() - lastPress) < 5005)) {
+  if (((millis() - lastPress) > 5000) && ((millis() - lastPress) < 5020)) {
     (*output).clearLED();
   }
 

@@ -10,7 +10,7 @@
 *  2 - bit display
 *  default - traditional 
 **/
-#define DEPICTION 2
+#define DEPICTION 0
 
 /* These define the Pins for the LEDs. They are arranged like this:
   traditional       seven Segment       binary
