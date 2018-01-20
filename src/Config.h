@@ -15,10 +15,10 @@
 /* These define the Pins for the LEDs. They are arranged like this:
   traditional       seven Segment       binary
         1   2        	 		1 
-        3 4 5     	  	6   	2             3   2   1
-        6   7        			7 
-							5   	3
-								4
+        3 4 5     	  	6   2             3   2   1
+        6   7        			7
+							          5   3
+								          4
   change the Pins if you have another configuration. */
 #define LED1 2
 #define LED2 3

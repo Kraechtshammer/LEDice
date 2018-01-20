@@ -1,7 +1,15 @@
 #include "DiceInterface.h"
 
-DiceInterface* createDice(int kind){
-  switch (kind){
+/**
+   Creates a new dice.
+   Depending on the integer given, it will return
+   a specific type of dice (i.e. traditional)
+
+   @param kind - integer defining the depiction method.
+   @return the new dice.
+*/
+DiceInterface* createDice(int kind) {
+  switch (kind) {
     case 0: return new traditional();
       break;
     case 1: return new sevenSegment();
@@ -12,13 +20,4 @@ DiceInterface* createDice(int kind){
   }
 }
 
-/* void traditional::showDigit(int digit){
-  switch(digit){
-    case 1: 
-      
-  }
-}
 
-void sevenSegment::showDigit(int digit){ 
-  
-}*/
