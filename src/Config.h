@@ -12,6 +12,9 @@
 **/
 #define DEPICTION 0
 
+/* Defines the cooldown time in Milliseconds until the LEDs will be turned off */
+#define COOLDOWN 5000;
+
 /* These define the Pins for the LEDs. They are arranged like this:
   traditional       seven Segment       binary
         1   2        	 		1 
