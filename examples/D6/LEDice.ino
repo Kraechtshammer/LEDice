@@ -36,7 +36,7 @@ void loop() {
 
   //if 5 seconds have passed, clear the dice.
   timeDifference = millis() - lastPress;
-  if ((timeDifference > 5000) && (timeDifference < 5030)) {
+  if ((timeDifference > COOLDOWN) && (timeDifference < COOLDOWN + 30)) {
     (*output).clearLED();
   }
 
