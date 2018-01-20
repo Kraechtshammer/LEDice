@@ -6,6 +6,9 @@ as in the manual, I will explain the mechanics of this library using the example
 as it uses every feature of the library.
 
 ## Structure
+###[LEDice.h](src/LEDice.h)
+This is the file you will need to include, if you want to use my whole library.
+
 ### Config
 In the [Config](src/Config.h), we define pins for buttons, 
 randomness (a random voltage from an unused pin is being used as a seed) 
