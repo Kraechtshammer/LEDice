@@ -23,12 +23,10 @@ the different depiction methods. By calling the createDice function, we receive 
 instance of the depiction method input as a parameter. 
 These are of the type DiceInterface and as such, can all be used the exact same way.
 
-The functions that can be called in these will be: 
-**showDigit**: As the name suggests, "prints" the number handed over.
-
-**clearLED**: Sets all LEDs to LOW.
-
-**startAnimation**: simulates a short loading sequence.
+The functions that can be called in these will be:  
+**showDigit**: As the name suggests, "prints" the number handed over.  
+**clearLED**: Sets all LEDs to LOW.  
+**startAnimation**: simulates a short loading sequence.  
 
 
 Every depiction method implemented by me uses arrays to define the pins 
