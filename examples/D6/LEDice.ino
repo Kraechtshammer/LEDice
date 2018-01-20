@@ -24,6 +24,7 @@ void setup() {
 }
 
 void loop() {
+  int timeDifference = 0;
   int buttonState = digitalRead(BUTTON);
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
@@ -34,7 +35,8 @@ void loop() {
   }
 
   //if 5 seconds have passed, clear the dice.
-  if (((millis() - lastPress) > 5000) && ((millis() - lastPress) < 5020)) {
+  timeDifference = millis() - lastPress;
+  if ((timeDifference > 5000) && (timeDifference < 5030)) {
     (*output).clearLED();
   }
 
